@@ -1,0 +1,8 @@
+class Settings:
+    BOARD_DIMENSION = 3
+    SMART_TRAINING = False
+    TRAINING_CYCLES = 1
+    BATCH_SIZE = 1000
+    HUMAN_PLAYER = True
+    VERBOSE = True if HUMAN_PLAYER or (TRAINING_CYCLES < 10 and not SMART_TRAINING) else False
+    VERBOSE_PLAYER = False
