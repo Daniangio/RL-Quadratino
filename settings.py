@@ -1,5 +1,5 @@
 class Settings:
-    BOARD_DIMENSION = 3
+    BOARD_DIMENSION = 4
     SMART_TRAINING = False
     TRAINING_CYCLES = 1
     BATCH_SIZE = 1000
